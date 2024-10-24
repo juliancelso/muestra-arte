@@ -1,0 +1,97 @@
+/* Estilos globales básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F4EA; /* Fondo claro */
+    color: #000000; /* Texto oscuro */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+.titulo {
+    text-align: center;
+}
+
+header {
+    position: relative;
+    padding: 10%;
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    z-index: 1;
+    box-shadow: 0 0 40px    rgb(0, 0, 0); /* Efecto de profundidad */
+}
+
+/* Estilos de sección */
+section {
+    padding: 27px;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #F8F4EA;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 27px;
+    box-shadow: 0 0 27px    rgb(225, 215, 198); /* Efecto de profundidad */
+}
+
+section p {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+
+/* Estilos del pie de página */
+footer {
+    background-color: #579bb1;
+    color: #F8F4EA;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 -2px 10px #579BB1;
+    box-shadow: 0 0 27px    rgb(63, 62, 61);
+}
+
+.carousel-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 50%; /* Mostrar de a 2 fotos */
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
