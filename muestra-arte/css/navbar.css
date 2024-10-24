@@ -1,0 +1,28 @@
+/* Estilo del navbar */
+.bg-custom {
+    background-color: #f3ece1; /* Un tono levemente más oscuro */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    margin-bottom: -45px;
+    transition: height 0.3s ease-in-out;
+    height: 45px; /* Altura inicial */
+}
+
+/* Texto del navbar */
+.nav-link {
+    color: #000 !important; /* Texto en negro */
+    font-weight: bold;
+}
+
+/* Espaciado de los elementos del navbar */
+.navbar-nav {
+    width: 75%;
+    justify-content: space-between;
+}
+
+/* Logo con algo de padding */
+.navbar-brand img {
+    padding: 5px;
+}
